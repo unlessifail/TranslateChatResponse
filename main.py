@@ -10,7 +10,7 @@ app = Flask(__name__)
 pygame.mixer.init()
 
 # Configuração da API da OpenAI
-openai.api_key = "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"
+openai.api_key = "hhmmmm"
 
 def verifica_pyaudio():
     try:
