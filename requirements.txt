@@ -1,0 +1,5 @@
+Flask==2.0.1
+SpeechRecognition==3.8.1
+gTTS==2.2.3
+pygame==2.1.2
+openai==0.27.1  # Certifique-se de verificar a versão correta conforme a migração para a API v1.0

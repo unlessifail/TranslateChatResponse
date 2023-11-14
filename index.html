@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat por Voz</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Chat por Voz</h1>
+    
+    <p>{{ cumprimento }}</p>
+    
+    <form action="/ouvir_comando" method="GET">
+        <button type="submit">Ativar Chat por Voz</button>
+    </form>
+    
+    <p>{{ resposta }}</p>
+</body>
+</html>
